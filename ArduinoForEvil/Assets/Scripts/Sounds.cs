@@ -13,7 +13,6 @@ public class Sounds : MonoBehaviour
     public static Action StartScreamSFX, StartSwearing, StopSwearingAction;
     private EventInstance swearingInstance;
 
-    // Start is called before the first frame update
     void Start()
     {
         if (!SwearingAction.IsNull)
